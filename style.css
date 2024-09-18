@@ -1,22 +1,39 @@
-body {
-    background-color: rgb(190, 254, 190);
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-    padding: 0px 15px;
-    font-family: cursive;
+html{
+    background-color: lavenderblush;
+}
+h1{
+    background-color: lightpink;
+    border: 2px solid white;
 }
 
-.flexContainer {
-    background-color: lightpink;
+body {
+    background-color: powderblue;
+    text-align: center;
+
+    padding: 20px;
+    margin: 20px;
+    font-family: cursive;
+    
+    border: 2px solid white;
+}
+
+#flexContainer{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#squareContainer {
+    display: flex;
+    flex-wrap:wrap;
     justify-content: space-around;
     align-items: center;
     width: 4in;
     height: 4in;
+    background-color: lightpink;
+    border: 2px solid white;
 }
 .squares{
     padding: 40px;
-    background-color: wheat;
+    background-color: lavender;
 }
