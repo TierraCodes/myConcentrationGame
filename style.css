@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(190, 254, 190);
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    padding: 0px 15px;
+    font-family: cursive;
+}
+
+.flexContainer {
+    background-color: lightpink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 4in;
+    height: 4in;
+}
+.squares{
+    padding: 40px;
+    background-color: wheat;
+}
