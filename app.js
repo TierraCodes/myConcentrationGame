@@ -1,9 +1,17 @@
-let container = document.createElement("div")
-let squaresDiv = document.getElementsByClassName("squares")
+let dataSecret = document.getElementsByClassName("squares")
 
-container.setAttribute();
+const value = dataSecret.getValue;
 
-document.body.appendChild(container)
 
-container.classList.add('squares')
+
+function getValue(){
+    dataSecret.addEventListener("click", (event) =>{
+        let dataValue = dataSecret.value;
+        if (dataValue == dataSecret){
+            return(
+                dataSecret.innerHTML = value
+            )
+        }
+    })
+}
 

@@ -16,11 +16,14 @@ body {
     
     border: 2px solid white;
 }
+footer{
+    padding: 15px;
+}
 
 #flexContainer{
     display: flex;
     justify-content: center;
-    
+
 }
 
 #squareContainer {
@@ -36,4 +39,5 @@ body {
 .squares{
     padding: 40px;
     background-color: lavender;
+    border: 2px solid white;
 }
